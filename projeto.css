@@ -1,0 +1,63 @@
+/* Definindo o espaço externo ao redor do elemento.*/
+
+* {margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+/*Estilizando o corpo da minha página, afetando o fundo e a fonte padrão.*/
+
+body {font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;}
+
+/*Estilizando a área de cabeçalho, geralmente contendo o título e a navegação.*/
+
+header {background-color: #333;
+    color: white;
+    padding: 10px 0;}
+
+/* Definindo estilos para a barra de navegação (corrigindo "Hav" para "nav").*/
+
+nav {text-align: center;}
+
+/*Estilizando um elemento com a classe "menu", como uma lista de navegação.*/
+
+.menu {list-style-type: none;
+    margin: 0;
+    padding: 0;}
+
+/* Definindo estilos para os links dentro dos itens de lista do menu.*/
+
+.menu li {    display: inline;
+    margin-right: 20px;}
+
+/* Definindo estilos para os links dentro dos itens de lista do menu.*/
+
+.menu li a {color: white;
+    text-decoration: none;
+    font-weight: bold;}
+
+.menu li a:hover {text-decoration: underline;}
+
+/*Estilizando a área principal do conteúdo da minha página.*/
+
+main {padding: 20px;
+    text-align: center;}
+
+/* Aplicando estilos a imagem dentro de um elemento com a classe "content".*/
+
+
+.content img {max-width: 100%;
+    height: auto;
+    margin-top: 20px;}
+
+/*Definindo estilo para o rodapé da minha página.*/
+
+
+footer {background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;}
